@@ -1,0 +1,97 @@
+
+  .carousel {
+    width: 100%;
+  }
+  .carousel-container {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  .carousel-item {
+    padding: 10px;
+    height:265px;
+    width: 220px;
+    border-radius: 15px;
+    position: absolute;
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  }
+  .carousel-item:hover{
+    animation: moving-card 0.9s linear infinite;
+  }
+  @keyframes moving-card {
+    50%{
+      transform: translateY(-7px);
+
+    }
+    100% {
+      transform: translateY(7px);
+    }
+  }
+  .carousel-item #book{
+    background-color: rgba(128, 128, 128, 0.189);
+    padding: 10px 13px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-bottom: 70%;
+    font-size: 12px;
+  }
+  .carousel-item #book:hover{
+    color: #6c7f9fda;
+  }
+  .carousel-item-2 #book,
+  .carousel-item-3 #book,
+  .carousel-item-4 #book,
+  .carousel-item-5 #book,
+  .carousel-item-6 #book,
+  .carousel-item-7 #book{
+    margin-bottom: 75%;
+  }
+  .carousel-item-1 {
+    height:320px;
+    width: 240px;
+    opacity: 1;
+  } 
+  .carousel-item-1 p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .carousel-item-2,
+  .carousel-item-3 {
+    left: 35%;
+  }
+  .carousel-item-3
+  {
+    left: 67%;
+  } 
+  .carousel-item-4,
+  .carousel-item-5,
+  .carousel-item-6,
+  .carousel-item-7{
+    left: 100%;
+  } 
+
+  .carousel-controls {
+    display: flex;
+    margin: 250px 0;
+  }
+    .carousel-control {  
+    background-color: #6c7f9fda;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    margin: 0 40px;
+    position: relative;
+    transform: scale(1.5);
+    transition: transform 0.5s;
+    width: 30px;
+  }
+  .carousel-control:hover {
+    transform: scale(1.3);
+  }
