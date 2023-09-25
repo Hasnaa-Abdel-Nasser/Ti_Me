@@ -1,4 +1,4 @@
-## About The Ti_Me
+## About Ti_Me
 <p align="center">
   <img width="800" src="https://github.com/Hasnaa-Abdel-Nasser/Ti_Me/blob/master/images/Screenshot%202022-11-10%20234319.png" alt="Screen">
 </p>
